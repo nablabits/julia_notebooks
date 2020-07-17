@@ -15,3 +15,14 @@ Right now, there are two notebooks:
   * Support setting the number of threads.
 
 _Enjoy!_
+
+## About this fork
+I found the original Julia_for_pythonistas.ipynb quite lazy on loading and working through, so I've splitted the nb into several --logical-- parts:
+* Intro: running locally, getting help, first look at Julia, Unicode, python code in Julia, Loop fusion & performance
+* Numbers and control flow: numbers, strings ``if`` and ``for`` statements
+* Data Structures: Tuples, structs, arrays, dicts, sets, other collections and generators
+* Functions: *still working through*
+* Misc:
+* Large projects and performance:
+
+Also, I've added a tables summary md to have a quick reference
