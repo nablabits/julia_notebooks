@@ -26,6 +26,12 @@
 |`"$p"` | `f"{p}"`
 |`"$(p - π)"` | `f"{p - math.pi}"`
 
+## Loop Fusion
+
+|Julia|Python
+|-----|------
+`sin.(x)./x` | `[sin(i) for i in x]`
+
 ## Imports
 
 |Julia|Python
@@ -118,7 +124,7 @@
 
 ## Dictionaries
 
-Julia|Python
+|Julia|Python
 |-----|------
 |`Dict("tree"=>"arbre", "love"=>"amour")` | `{"tree": "arbre", "love": "amour"}`
 |`d["arbre"]` | `d["arbre"]`
